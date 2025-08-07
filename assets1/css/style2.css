@@ -1,0 +1,59 @@
+.body {
+    direction: rtl;
+}
+
+
+.top-header {
+    background-color: darkorange;
+
+}
+
+
+.head-icon img {
+
+    width: 40px;
+
+}
+
+.nav-item {
+    color: aliceblue;
+
+
+}
+
+/* سه عدد بخش باکس رضایت*/
+.box {
+    height: 200px;
+
+}
+
+.img66 {
+    height: 100px;
+    width: 50px;
+
+}
+
+/*سه عدد بخش باکس رضایت */
+
+
+
+
+/* سکشن اصلی محصولات*/
+
+.product {
+
+    background-color: chocolate;
+
+padding: 100px 0px;
+margin: 50px  0px;
+}
+
+
+/* سکشن اصلی محصولات*/
+
+
+
+.aaa{
+
+    height: 200px;
+}

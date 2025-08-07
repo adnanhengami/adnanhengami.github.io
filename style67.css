@@ -1,0 +1,237 @@
+*{
+
+margin: 0px;
+
+}
+
+.body{
+    direction: rtl;
+background-color: #25231f;
+
+    
+}
+
+
+.header{
+height: 600px;
+    background-image: url(./image/purple-fog-26948-1920x1080.jpg);
+    
+}
+
+
+
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  
+  height: 100px;
+
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  padding: 8px 12px;
+  border-radius: 5px;
+  
+}
+
+.menu-item a:hover {
+  background-color: hwb(295 5% 27%);
+  color: #25231f;
+  box-shadow: 0 4px 10px rgba(172, 18, 243, 0.836);
+
+
+
+}
+
+
+
+
+
+
+.photo {
+    float: left;               
+    margin-left: 30px;         
+    margin-top: 40px;         
+    width: fit-content;
+  }
+  
+  .photo img {
+    width: 160px;              
+    height: 280px;             
+    object-fit: cover;         
+    border-radius: 15px;       
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);  
+    display: block;
+  }
+
+
+
+  .text1{
+
+margin: 100px;
+color: #e0e0e0;
+
+  }
+
+  .h6{
+
+text-align: center;
+
+  }
+
+  
+
+
+  .skills-section {
+  padding: 60px 40px;           
+  background-color: #131111;    
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #f3f2f2;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;             
+  gap: 20px;                    
+}
+
+.skill-box {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  flex: 1;
+  min-width: 180px;
+  max-width: 220px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  font-size: 18px;
+  color: #444;
+}
+
+
+
+
+
+
+
+.img-skill{
+
+height: 50px;
+
+}
+
+
+.img-skill2{
+height: 41px;
+
+
+}
+
+
+
+
+.footer {
+    background-color: #252525;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #3a3a3a;
+    color: white;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .icon:hover {
+    background-color: #4caf50; 
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    color: #aaa;
+  }
+
+  .web-media{
+
+
+height: 50px;
+border-radius: 25px;
+  }
+
+  /* 📱 فقط برای نمایش موبایل و تبلت */
+@media (max-width: 768px) {
+
+    .menu {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .photo {
+      float: none;
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .photo img {
+      width: 140px;
+      height: 240px;
+    }
+  
+    .text1 {
+      margin: 20px;
+      text-align: center;
+    }
+  
+    .skills-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skill-box {
+      width: 90%;
+      max-width: 300px;
+    }
+  
+    .web-media {
+      height: 40px;
+    }
+  
+    .to-top {
+      width: 40px;
+      height: 40px;
+      left: 10px;
+      bottom: 20px;
+    }
+  
+  }
